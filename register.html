@@ -32,7 +32,44 @@
           <h2>Overskrift</h2>
           <p>Tekst</p>
         </article>
-        <form id="webform"></form>
+        <form id="webform">
+          <div class="form-flex">
+            <div class="form-grup">
+              <label>Fornavn</label>
+              <input type="text" placeholder="Fornavn" required />
+            </div>
+            <div class="form-grup">
+              <label>Efternavn</label>
+              <input type="text" placeholder="Efternavn" required />
+            </div>
+            <div class="form-grup">
+              <label>Email</label>
+              <input type="email" placeholder="Email" required />
+            </div>
+            <div class="form-grup">
+              <label>Telefon nummer</label>
+              <input
+                type="number"
+                placeholder="Telefon nummer"
+                required
+                maxlength="8"
+                minlength="1"
+              />
+            </div>
+          </div>
+
+          <div class="form-grup">
+            <label>Beskriver af din miste sok</label>
+            <textarea
+              placeholder="Beskriver af din miste sok"
+              rows="4"
+              ;
+              cols="50"
+              ;
+            ></textarea>
+          </div>
+          <button>Send din forespørgsel</button>
+        </form>
       </section>
       <section id="form-summary">
         <h2>Summary</h2>

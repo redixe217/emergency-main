@@ -1,5 +1,51 @@
 #webform {
-  background-color: var(--form-background-color);
+  /* background-color: var(--form-background-color); */
+}
+
+#webform .form-flex {
+  display: grid;
+  gap: 0.2rem;
+  /* margin-left: 4%; */
+}
+
+/* #webform textarea {
+  margin-left: 4%;
+}
+
+.form-grup {
+  margin-right: 4%;
+} */
+
+form {
+  margin-left: 4%;
+}
+
+#webform label,
+#webform input,
+#webform button {
+  display: block;
+  margin: 0.3rem 0;
+}
+
+#webform input {
+  height: 2em;
+  width: 400px;
+}
+
+#webform textarea {
+  height: 200px;
+  width: 400px;
+  resize: none;
+}
+
+form button {
+  height: 50px;
+  width: 160px;
+  background-color: var(--followup-text-bg-color);
+}
+
+form button:hover {
+  background-color: var(--hover-color);
 }
 
 #form-section,

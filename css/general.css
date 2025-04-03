@@ -118,7 +118,7 @@ header > nav li > a:after {
   content: " \2192";
 }
 nav a:hover {
-  color: var(--hover-color);
+  background-color: var(--hover-color);
 }
 nav a:active {
   color: var(--active-color);
