@@ -138,3 +138,8 @@ footer a {
 .green {
   background-color: var(--info-bg-color-green);
 }
+
+label,
+textarea {
+  font-family: var(--link-font);
+}
