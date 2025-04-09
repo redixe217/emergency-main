@@ -143,3 +143,7 @@ label,
 textarea {
   font-family: var(--link-font);
 }
+
+.teaser_img {
+  width: 200px;
+}

@@ -12,6 +12,8 @@ document.querySelector("#kedCircle").addEventListener("click", kedInfo);
 
 
 
+
+
 // Trist sok
 function tristHighlight() {
     console.log("tristHighlight");
@@ -69,3 +71,4 @@ function kedInfo() {
     document.querySelector(".info-text > h2").textContent = "Trist sok";
     document.querySelector(".info-text > article > h3").textContent = "Vi var et perfekt par... nu er jeg bare en single-sok!";
 }   
+

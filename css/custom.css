@@ -45,21 +45,21 @@
 
   /* Text colors */
   --logotype-color: #ffffff;
-  --headline-color: #bbc3ca;
-  --headline-color-inverted: #f9fcfe;
+  --headline-color: #2c3e50;
+  --headline-color-inverted: #2c3e50;
   --bodytext-color: #575c61;
-  --bodytext-color-inverted: #f9fcfe;
-  --cta-text-color: #bbc3ca;
-  --cta-text-color-inverted: #bbc3ca;
-  --followup-text-color: #575c61;
-  --followup-text-color-inverted: #bbc3ca;
-  --formfield-text-color: #575c61;
-  --form-submit-color: #bbc3ca;
-  --form-submit-color-inverted: #bbc3ca;
+  --bodytext-color-inverted: #2c3e50;
+  --cta-text-color: #2c3e50;
+  --cta-text-color-inverted: #2c3e50;
+  --followup-text-color: #2c3e50;
+  --followup-text-color-inverted: #2c3e50;
+  --formfield-text-color: #2c3e50;
+  --form-submit-color: #2c3e50;
+  --form-submit-color-inverted: #2c3e50;
 
   /* Background colors */
   --logotype-background-color: #d6ebff;
-  --header-background-color: #ffe180;
+  --header-background-color: #e9f4fb;
   --article-background-color: #dbdde3;
   --news-background-color: #dbdde3;
   --news-background-color-inverted: #eeebe9;
@@ -69,9 +69,9 @@
   --headline-bg-color-inverted: #ffa69e;
   --bodytext-bg-color: #ffa69e;
   --bodytext-bg-color-inverted: #ffa69e;
-  --cta-text-bg-color: #dbdde3;
+  --cta-text-bg-color: #ff8a80;
   --cta-text-bg-color-inverted: #dbdde3;
-  --followup-text-bg-color: #c9f2c9;
+  --followup-text-bg-color: #ff8a80;
   --followup-text-bg-color-inverted: #dbdde3;
   --form-background-color: #c5c7ce;
   --form-text-color: #dbdde3;
